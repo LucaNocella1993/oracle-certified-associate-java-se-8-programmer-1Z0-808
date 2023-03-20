@@ -7,6 +7,6 @@ public class TestClass {
     public static void main(String[] args) {
         List<Integer> al = new ArrayList<>(); //1
         al.add(111); //2
-        System.out.println(al.get(al.size()));  //3
+        System.out.println(al.get(al.size() - 1));  //3
      }
 }
